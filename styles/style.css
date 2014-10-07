@@ -1,0 +1,61 @@
+input{
+	outline: none;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 5.6em;
+	color: rgb(255,48,25);
+	margin-top: 120px;
+}
+
+#wrapper{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
+}
+
+li{
+	list-style-type: none;
+}
+
+form input[type='submit']{
+	background-color: #00FF00;
+	border: none;
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 1.6em;
+	width: 412px;
+	height: 50px;
+	background: rgb(255,48,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+form input[type='submit']:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+form input[type='text'], form input[type='password']{
+	border: 1px solid rgb(255,48,25);
+	padding-left: 10px;
+	height: 45px;
+	width: 400px;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+}
